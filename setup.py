@@ -20,8 +20,8 @@ setup(
     name='scale_invariant_feature_transform',
     ext_modules=[
         CUDAExtension('sift_on_gpu', [
-            'sift_src/scale_invariant_feature_transform_cuda.cu',
-            'sift_src/scale_invariant_feature_transform.cpp'
+            'src/scale_invariant_feature_transform_cuda.cu',
+            'src/scale_invariant_feature_transform.cpp'
         ])
     ],
     cmdclass={'build_ext': BuildExtension})
