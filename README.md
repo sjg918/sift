@@ -2,7 +2,8 @@
 original repo: https://github.com/Celebrandil/CudaSift<br/>
 My result does not match the original perfectly<br/>
 I added some constraints below.<br/>
-It's at the bottom of the .cu file.<>
+It's at the bottom of the .cu file.<br/>
+
 '''
 int cnt = 0;
     int num_matched_pts = 0;
@@ -35,5 +36,6 @@ int cnt = 0;
         }
     }
 '''
+
 # ONLY 5ms to run. ENJOY !!!
 python setup.py install
