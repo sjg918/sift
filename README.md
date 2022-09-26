@@ -43,7 +43,7 @@ for (int j=0;j<numPts;j++) {
 </code>
 </pre>
 
-# Results Example
+# Results Example (kitti 2012)
 ![left](https://github.com/sjg918/sift/blob/main/left.png?raw=true)
 ![right](https://github.com/sjg918/sift/blob/main/right.png?raw=true)
 ![result](https://github.com/sjg918/sift/blob/main/hi.png?raw=true)
