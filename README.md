@@ -1,6 +1,10 @@
 # scale invariant feature transform on gpu (pytorch extension)
 original repo: https://github.com/Celebrandil/CudaSift<br/>
 My result does not match the original perfectly<br/>
+
+# ONLY 5ms(RTX 2080ti) to run. ENJOY !!!
+python setup.py install
+
 I added some constraints below.<br/>
 It's at the bottom of the .cu file.<br/>
 
@@ -39,5 +43,7 @@ for (int j=0;j<numPts;j++) {
 </code>
 </pre>
 
-# ONLY 5ms to run. ENJOY !!!
-python setup.py install
+# Results Example
+![left](https://github.com/sjg918/sift/blob/main/left.png?raw=true)
+![right](https://github.com/sjg918/sift/blob/main/right.png?raw=true)
+![result](https://github.com/sjg918/sift/blob/main/hi.png?raw=true)
