@@ -1,8 +1,6 @@
 # scale invariant feature transform on gpu (pytorch extension)
 python setup.py install<br/>
 original repo: https://github.com/Celebrandil/CudaSift<br/>
-opencv-python sift takes more than 100ms<br/>
-but, sift on gpu takes ONLY 5ms(RTX 2080ti) to run. ENJOY !!!<br/>
 
 # My result does not match the original perfectly<br/>
 I added some constraints below.<br/>
